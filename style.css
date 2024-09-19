@@ -1,0 +1,68 @@
+.navbar {
+    background-color: #343a40;
+  
+  }
+
+
+  .navbar a:hover{
+    color: red
+  }
+
+  /* Hero Section */
+  .hero {
+    background: url(https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F947cb245-b59e-437f-b459-bcf6142aa33e.png?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1) center center/cover no-repeat;
+    height: 400px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 5rem;
+  }
+
+  /* Product Section */
+  .product-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .product-card h5 {
+    font-size: 1.2rem;
+  }
+  .product-card p {
+    font-size: 0.9rem;
+  }
+  .product-card button {
+    background-color: #343a40;
+    color: white;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+    .product-card h5 {
+      font-size: 1rem;
+    }
+    .product-card p {
+      font-size: 0.8rem;
+    }
+  }
